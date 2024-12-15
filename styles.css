@@ -4,14 +4,41 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: #f4f4f4;
-}
-
-h1 {
-    color: #333;
-    text-align: center;
-}
-
-p {
     line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
     color: #666;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
 }
